@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T12:48:20.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="0lSulRuuWhZUOlfDd4cP" version="18.0.2" type="github"><diagram id="JKf3qvEtXC_-aUcD3_NP" name="Page-1">7Vpdb6M4FP01SLsPiTCEQB4Tkuys1FlVW2k68xQ54BBvHYyM87W/fq/BhM+kjdrupJrORBrfg31tLueea8wYtr85/CFwsv7KQ8IMywwPhj01LAsNLMtQPzM85ohrOjkQCRrqTiXwQP8lGjQ1uqUhSWsdJedM0qQOBjyOSSBrGBaC7+vdVpzVZ01wRFrAQ4BZG32koVznqGe5Jf6F0GhdzIyGo/zKBhed9Z2kaxzyfQWyZ4btC85l3tocfMJU8Iq45OPmZ66eFiZILF8y4Mv02919OsJW8uXxr3myc75+O/T0beww2+obHj8+AOAzvg31uuWxCEbCaSyzgDoT+MF8vmk4cMVXVt9yGkDTdusAalvKRx1o2m4dQE33qDE/ai6wArSsmnuzMb9ZWSD87AnfSkZj4p+oZwIYCRxSeCQ+Z1wAFvMYojdZyw0DC0Fzv6aSPCQ4UFHdQ9oAtuKx1ORHVmHrwCuvQG+JYS6hfWRPgojZjuQPJO/DGE5SujyNEiTYipTuyN8kzZ0rFIiYqPbmEKmc7eN9OuhHgm+TbPl/wlydVxfQXASKGAvMpHIkBX8ixY0alg1/54p8kxVlrBGAHRGSQl6NGY2Uf8nVdFhbjKwyjxAVGkd3mTW1TR2JrilCnK5JqG9JsximIIez6YFOSQdqRfiGSHGELnqA5ek81UKFirzdl2nvmBpbV1J+YGsQa6mJTr7LbISGTsgrkhMNWtnZSkkSglxpkwu55hGPMZuV6AQeXRyeIlX2uePqCWRs+odIedT0w1vJ63wlByq/6+Gq/UO1VR7k5vRQuTY9Vox7IihEIiNthsUQle+FV2VUXSm79JVZx6rV9JaHQt3/2Sd+SfJSvhUBudDP09UGi4hc8ofMbl4JwrCE3KuXpLfmiNeiiM9TCcjskEDSQLSajEmfiAzWOoidit6p6l3K3qnubYWvdcs0t2OGJtiFuW0QtbsVMt0Gu7CumtQcjTpGo8bo8xXhnII1KwVcG5pj23Yr16YUNFzSTJFjlbsNcVX+XBd2HV1yvMr+NLWyEOI7vCTsnqdUu19yKfnmWaUOSJzlYFUhnqteOE3ycKzoQa2juwQJkudkXoCgeKVdpSgAei9IQe4XSv95IThbDwZmox647Xrgeu1yUGBvXw2cm6oGRTuXcPcV1eBkVF3dWjUo3keeLQfeRVb1zL7puTVi9Yq1vrhgZN7HQuBjpYNW8nLyewWUM9tOnc+WNaq/LlzXHxr5Chqji+Xw1SqFODVJf4rIK/LA+9wE3R7toQL9xF1QscyKNt7hzTLEn7ufD7T7mbvezBxct/uZmo6P3F9m98NyVr/ftseyb23b47Zy+HOX825yP/wQL73FMityn52EATQRVEXHGmYnVEt4/R1GqvVbGoAIbBkJf/+sCR+pJswHc29yXU2Y+Mh2fp03YqKov8x5/36FwRneWF0YtTTggeHgyZjZhoeM8cSYOcZ4ZozGxmxojHxjNDdmrjK9QaXPyPDMrI+rOoydy+LwKjbrg/Dm8Y3qPm2RVXe+OZ42Pzygc9zd8CVlZBEwmrHuLY7oT0fyxSvpqM3BAfofOXj6tHcDr6LXb01esJlAb75vGP3MfUPh+NIRWkFmusm+DFcD351ez2YlUxcmIE1R9ui7ylE22bjItc7E0+uZrqVUn77HKhLWPAhjq0+hKKwokEr0A5jRmodYwpvvXOEp/JvygGLW25CQ4p5leSBycwepWKJFppmLQK2JhIt0F/WQ5fWTOHqTfB32nVrG2sUhZiVjrY6qYV2fsWCW39Lzs6byfyTYs/8A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T12:49:54.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xpqatlL-f3NGPVIHvXZy" version="18.0.2" type="github">
+  <diagram id="JKf3qvEtXC_-aUcD3_NP" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-7" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="120" width="500" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="HDVLPs9a2pHWNFpv5MVx-7" source="HDVLPs9a2pHWNFpv5MVx-8" target="HDVLPs9a2pHWNFpv5MVx-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-8" value="Cost Explorer" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cost_explorer;" parent="HDVLPs9a2pHWNFpv5MVx-7" vertex="1">
+          <mxGeometry x="400" y="170" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="HDVLPs9a2pHWNFpv5MVx-7" source="HDVLPs9a2pHWNFpv5MVx-10" target="HDVLPs9a2pHWNFpv5MVx-8" edge="1">
+          <mxGeometry x="-0.087" y="-21" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="229" />
+              <mxPoint x="350" y="229" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="HDVLPs9a2pHWNFpv5MVx-7" source="HDVLPs9a2pHWNFpv5MVx-10" target="HDVLPs9a2pHWNFpv5MVx-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-10" value="Lambda" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="HDVLPs9a2pHWNFpv5MVx-7" vertex="1">
+          <mxGeometry x="230" y="170" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="HDVLPs9a2pHWNFpv5MVx-7" source="HDVLPs9a2pHWNFpv5MVx-16" target="HDVLPs9a2pHWNFpv5MVx-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-16" value="Event Bridge&lt;br&gt;(scheduled)" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" parent="HDVLPs9a2pHWNFpv5MVx-7" vertex="1">
+          <mxGeometry x="56" y="170" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-19" value="Slackに定期的に通知" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mobile_client;" parent="1" vertex="1">
+          <mxGeometry x="120" y="290" width="41" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HDVLPs9a2pHWNFpv5MVx-16" target="HDVLPs9a2pHWNFpv5MVx-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDVLPs9a2pHWNFpv5MVx-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Slack_colored_svg-128.png" parent="1" vertex="1">
+          <mxGeometry x="126.5" y="315" width="28" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

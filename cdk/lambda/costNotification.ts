@@ -70,18 +70,15 @@ const createMessage = (
 
   // 各グループ（AWSサービス）の月間利用金額を取得（上位10サービス、0.005ドル未満切り捨て）
   const totalCostsByGroup = groups
-    .map((group) => ({
-      serviceName: group.Keys?.join('/') ?? '不明なサービス',
-      serviceCost: getGroupCost(group),
+    .map((g) => ({
+      serviceName: g.Keys?.join('/') ?? '不明なサービス',
+      serviceCost: getGroupCost(g),
     }))
-    .filter(({ serviceCost }) => serviceCost >= 0.005)
+    .filter((g) => g.serviceCost >= 0.005 || g.serviceName === 'Tax')
     .sort((a, b) => b.serviceCost - a.serviceCost)
     .slice(0, 10);
   const details = totalCostsByGroup
-    .map(
-      ({ serviceName, serviceCost }) =>
-        `  ・${serviceName}: ${serviceCost.toFixed(2)} USD`
-    )
+    .map((g) => `  ・${g.serviceName}: ${g.serviceCost.toFixed(2)} USD`)
     .join('\n');
 
   return { title, details };

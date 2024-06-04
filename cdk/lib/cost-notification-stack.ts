@@ -34,7 +34,7 @@ export class CostNotificationStack extends Stack {
 
     // 毎日通知するcronジョブの作成
     const scheduledEventBridge = new Rule(this, 'ScheduledEventBridge', {
-      schedule: Schedule.rate(Duration.days(1)),
+      schedule: Schedule.cron({ hour: '0', minute: '0' }), // 毎日日本時間9時(GMT0時)に送信
     });
     scheduledEventBridge.addTarget(new LambdaFunction(costNotificationLambda));
   }

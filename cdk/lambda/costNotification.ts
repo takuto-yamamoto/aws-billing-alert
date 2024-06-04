@@ -3,6 +3,7 @@ import {
   GetCostAndUsageCommand,
   GetCostAndUsageCommandOutput,
   Granularity,
+  Group,
   GroupDefinitionType,
   Metric,
 } from '@aws-sdk/client-cost-explorer';
@@ -59,25 +60,29 @@ const createMessage = (
   end: Dayjs
 ) => {
   // 全グループ（AWSサービス）の合計月間利用金額を取得
-  const monthlyTotalCost = (
-    monthlyCost.ResultsByTime?.[0].Groups?.reduce(
-      (acc, group) =>
-        acc + parseFloat(group.Metrics?.BlendedCost.Amount ?? '0'),
-      0
-    ) ?? 0
-  ).toFixed(2);
+  const getGroupCost = (group: Group) =>
+    parseFloat(group.Metrics?.UnblendedCost.Amount ?? '0');
+  const groups = monthlyCost.ResultsByTime?.[0].Groups ?? [];
+  const monthlyTotalCost = groups
+    .reduce((acc, group) => acc + getGroupCost(group), 0)
+    .toFixed(2);
   const title = `${start.format('MM-DD')}～${end.format('MM-DD')}の請求額は、${monthlyTotalCost} USDです。`; // prettier-ignore
 
-  // 各グループ（AWSサービス）の月間利用金額を取得
-  const details =
-    monthlyCost.ResultsByTime?.[0].Groups?.map((group) => {
-      const serviceName = group.Keys?.join('/') ?? '不明なサービス';
-      const serviceCost = parseFloat(
-        group.Metrics?.BlendedCost.Amount ?? '0'
-      ).toFixed(2);
-
-      return `  ・${serviceName}: ${serviceCost} USD`;
-    }) ?? [];
+  // 各グループ（AWSサービス）の月間利用金額を取得（上位10サービス、0.005ドル未満切り捨て）
+  const totalCostsByGroup = groups
+    .map((group) => ({
+      serviceName: group.Keys?.join('/') ?? '不明なサービス',
+      serviceCost: getGroupCost(group),
+    }))
+    .filter(({ serviceCost }) => serviceCost >= 0.005)
+    .sort((a, b) => b.serviceCost - a.serviceCost)
+    .slice(0, 10);
+  const details = totalCostsByGroup
+    .map(
+      ({ serviceName, serviceCost }) =>
+        `  ・${serviceName}: ${serviceCost.toFixed(2)} USD`
+    )
+    .join('\n');
 
   return { title, details };
 };
@@ -85,7 +90,7 @@ const createMessage = (
 const sendMessage = async (
   webhookUrl: string,
   title: string,
-  details: string[]
+  details: string
 ) => {
   const payload = {
     attachments: [
